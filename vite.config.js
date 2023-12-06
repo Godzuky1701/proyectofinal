@@ -31,5 +31,6 @@ export default defineConfig({
         }),
         htmlPurge({}),
         ViteMinifyPlugin({}),
-    ]
+    ],
+    base: "/proyectofinal/"
 })
