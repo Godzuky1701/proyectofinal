@@ -1,0 +1,63 @@
+@border-radius: 10px;
+@max-image-width: 700px; // Ajusta el tamaño máximo según tus necesidades
+
+.main-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-section {
+  img {
+    max-width: @max-image-width;
+    width: 100%;
+    border-radius: @border-radius;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  
+  .card {
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: @border-radius;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(91, 166, 236);
+
+    img {
+      max-width: @max-image-width;
+      width: 100%;
+      border-radius: @border-radius @border-radius 0 0;
+    }
+
+    h3, p {
+      margin: 0;
+    }
+  }
+}
+
+.mission-vision-section {
+  display: flex;
+  justify-content: space-around;
+  
+
+  .mission, .vision {
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: @border-radius;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(91, 166, 236);
+
+    h3, p {
+      margin: 0;
+    }
+  }
+}

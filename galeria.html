@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./less/less.less">
+    <link rel="stylesheet" href="less/galeria.less">
+    
+    
+
+    <title>{{title}}</title>
+</head>
+<body >
+    {{> header}}
+  <h1>Galería de Imágenes </h1>
+	
+	<ul class="galeria">
+		<li><a href="#img1"><img src="https://scontent.fsap1-1.fna.fbcdn.net/v/t1.6435-9/79669648_10219295296989799_6955585916807151616_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=0YqBm1YHZAsAX-OYrKL&_nc_ht=scontent.fsap1-1.fna&oh=00_AfAs9GdfwmQ4JehWJTH2nHe4OjlypzINETWzcm0bsZqTFA&oe=6594833A"></a></li>
+		<li><a href="#img2"><img src="https://scontent.fsap1-2.fna.fbcdn.net/v/t39.30808-6/305969181_10226805897750124_3135502475178135478_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9534ce&_nc_ohc=yvSyzdHKq9IAX-ljjDc&_nc_ht=scontent.fsap1-2.fna&oh=00_AfCl5aTWL96OYsNcvMkhyKzD69h5AYYepcepb09Kf5Nt2Q&oe=657227CF"></a></li>
+		<li><a href="#img3"><img src="https://scontent.fsap1-2.fna.fbcdn.net/v/t1.6435-9/71037993_10218568885069955_7454241919204327424_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=Mtub4YZYsd4AX90S8OX&_nc_ht=scontent.fsap1-2.fna&oh=00_AfCFchaD9iZwKJx4o0HrT5eLNBeFBiteb4q5XmrvnxoDmg&oe=659493B9"></a></li>
+		<li><a href="#img4"><img src="https://scontent.fsap1-1.fna.fbcdn.net/v/t1.6435-9/52915679_10216936499381333_3532620951831183360_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=o6kt-RMp19cAX9y74zj&_nc_ht=scontent.fsap1-1.fna&oh=00_AfDRY1Lo6Osk7DhlyGTSgHw_ia6BiZeX9k-iiRmLa1eCAA&oe=65948303"></a></li>
+    <li><a href="#img5"><img src="https://scontent.fsap1-1.fna.fbcdn.net/v/t39.30808-6/323265377_1028194281905816_2909466936263165169_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9534ce&_nc_ohc=i5Nrs7jbq30AX-QkQ_J&_nc_ht=scontent.fsap1-1.fna&oh=00_AfAgBKOFQXSX-UL9DE3dBnkouZFAQa-u9_3TfixFjmbbjw&oe=65716A44"></a></li>
+    <li><a href="#img6"><img src="https://scontent.fsap1-1.fna.fbcdn.net/v/t39.30808-6/328990442_2763355307129063_3124045145218960688_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=Tcm-wis4g_EAX-Nk9A7&_nc_ht=scontent.fsap1-1.fna&oh=00_AfBeSiFgr1lz5De45Bg2wXC0xvzYIJ8gcRfB2nS0szegvg&oe=6572B7CC"></a></li>
+    <li><a href="#img7"><img src="https://scontent.fsap1-2.fna.fbcdn.net/v/t1.6435-9/131432554_10222788403075268_8699498569926781139_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=TwS3MmBetuUAX-Ko0xd&_nc_ht=scontent.fsap1-2.fna&oh=00_AfAHCWSliFEjqVJi6WzS1jCx88aW4dTk20KmYKqXbZ_pqQ&oe=65949B02"></a></li>
+    <li><a href="#img8"><img src="https://scontent.fsap1-2.fna.fbcdn.net/v/t1.6435-9/44088744_10215942463291052_8056822751341576192_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=EujkuZ0rne0AX8gAtVg&_nc_ht=scontent.fsap1-2.fna&oh=00_AfCrTAtU-EFX5kQh0CXcQv9kjkcEXdLpEGKq_Aknk6QEbg&oe=6594A059"></a></li>
+	</ul>
+
+	<div class="modal" id="img1">
+		<h3>Imagen 1</h3>
+		<div class="imagen">
+			<a href="#img8">&#60;</a>
+			<a href="#img2"><img src="https://scontent.fsap1-1.fna.fbcdn.net/v/t1.6435-9/79669648_10219295296989799_6955585916807151616_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=0YqBm1YHZAsAX-OYrKL&_nc_ht=scontent.fsap1-1.fna&oh=00_AfAs9GdfwmQ4JehWJTH2nHe4OjlypzINETWzcm0bsZqTFA&oe=6594833A"></a>
+			<a href="#img2">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img2">
+		<h3>Imagen 2</h3>
+		<div class="imagen">
+			<a href="#img1">&#60;</a>
+			<a href="#img3"><img src="https://scontent.fsap1-2.fna.fbcdn.net/v/t39.30808-6/305969181_10226805897750124_3135502475178135478_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9534ce&_nc_ohc=yvSyzdHKq9IAX-ljjDc&_nc_ht=scontent.fsap1-2.fna&oh=00_AfCl5aTWL96OYsNcvMkhyKzD69h5AYYepcepb09Kf5Nt2Q&oe=657227CF"></a>
+			<a href="#img3">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img3">
+		<h3>Imagen 3</h3>
+		<div class="imagen">
+			<a href="#img2">&#60;</a>
+			<a href="#img4"><img src="https://scontent.fsap1-2.fna.fbcdn.net/v/t1.6435-9/71037993_10218568885069955_7454241919204327424_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=Mtub4YZYsd4AX90S8OX&_nc_ht=scontent.fsap1-2.fna&oh=00_AfCFchaD9iZwKJx4o0HrT5eLNBeFBiteb4q5XmrvnxoDmg&oe=659493B9"></a>
+			<a href="#img4">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img4">
+		<h3>Imagen 4</h3>
+		<div class="imagen">
+			<a href="#img3">&#60;</a>
+			<a href="#img5"><img src="https://scontent.fsap1-1.fna.fbcdn.net/v/t1.6435-9/52915679_10216936499381333_3532620951831183360_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=o6kt-RMp19cAX9y74zj&_nc_ht=scontent.fsap1-1.fna&oh=00_AfDRY1Lo6Osk7DhlyGTSgHw_ia6BiZeX9k-iiRmLa1eCAA&oe=65948303"></a>
+			<a href="#img5">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+  <div class="modal" id="img5">
+		<h3>Imagen 5</h3>
+		<div class="imagen">
+			<a href="#img4">&#60;</a>
+			<a href="#img6"><img src="https://scontent.fsap1-1.fna.fbcdn.net/v/t39.30808-6/323265377_1028194281905816_2909466936263165169_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9534ce&_nc_ohc=i5Nrs7jbq30AX-QkQ_J&_nc_ht=scontent.fsap1-1.fna&oh=00_AfAgBKOFQXSX-UL9DE3dBnkouZFAQa-u9_3TfixFjmbbjw&oe=65716A44"></a>
+			<a href="#img6">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+  <div class="modal" id="img6">
+		<h3>Imagen 6</h3>
+		<div class="imagen">
+			<a href="#img5">&#60;</a>
+			<a href="#img7"><img src="https://scontent.fsap1-1.fna.fbcdn.net/v/t39.30808-6/328990442_2763355307129063_3124045145218960688_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=Tcm-wis4g_EAX-Nk9A7&_nc_ht=scontent.fsap1-1.fna&oh=00_AfBeSiFgr1lz5De45Bg2wXC0xvzYIJ8gcRfB2nS0szegvg&oe=6572B7CC"></a>
+			<a href="#img7">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+  <div class="modal" id="img7">
+		<h3>Imagen 7</h3>
+		<div class="imagen">
+			<a href="#img6">&#60;</a>
+			<a href="#img8"><img src="https://scontent.fsap1-2.fna.fbcdn.net/v/t1.6435-9/131432554_10222788403075268_8699498569926781139_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=TwS3MmBetuUAX-Ko0xd&_nc_ht=scontent.fsap1-2.fna&oh=00_AfAHCWSliFEjqVJi6WzS1jCx88aW4dTk20KmYKqXbZ_pqQ&oe=65949B02"></a>
+			<a href="#img8">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+  <div class="modal" id="img8">
+		<h3>Imagen 8</h3>
+		<div class="imagen">
+			<a href="#img7">&#60;</a>
+			<a href="#img1"><img src="https://scontent.fsap1-2.fna.fbcdn.net/v/t1.6435-9/44088744_10215942463291052_8056822751341576192_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=EujkuZ0rne0AX8gAtVg&_nc_ht=scontent.fsap1-2.fna&oh=00_AfCrTAtU-EFX5kQh0CXcQv9kjkcEXdLpEGKq_Aknk6QEbg&oe=6594A059"></a>
+			<a href="#img1">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+    {{> footer}}
+
+</body>
+</html>

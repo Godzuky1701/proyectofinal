@@ -1,0 +1,31 @@
+@background-color: #000;
+@text-color: #fff;
+
+.menu-container {
+  text-align: center;
+  background-color: @background-color;
+  padding: 20px;
+}
+
+h1 {
+  color: @text-color;
+}
+
+.event-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.event-item {
+  margin: 0 10px;
+}
+
+a {
+  color: @text-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,42 @@
+.blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-item {
+    background-color: #1c4b5e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+
+    h5 {
+        margin-top: 0.1rem;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    
+    span {
+        font-size: 0.8em;
+        color: #888;
+    }
+
+    p {
+        margin-top: 10px;
+        line-height: 1.6;
+    }
+
+    a {
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #333;
+    }
+}
+
+@media (max-width: 600px) {
+    .blog {
+        grid-template-columns: 1fr;
+    }
+}

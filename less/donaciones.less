@@ -1,0 +1,73 @@
+@base-font-family: Arial, sans-serif;
+@base-background-color: #633636;
+@base-header-bg-color: #333;
+@base-header-text-color: #111010;
+@base-nav-bg-color: #555;
+@base-nav-link-color: rgb(0, 0, 0)beb;
+@base-section-padding: 100px;
+@base-footer-bg-color: #333;
+@base-footer-text-color: #000000;
+@base-carousel-max-width: 800px;
+@base-carousel-item-max-height: 300px;
+
+body {
+  font-family: @base-font-family;
+  margin: 0;
+  padding: 0;
+  background-color: @base-background-color;
+}
+
+header {
+  background-color: @base-header-bg-color;
+  color: @base-header-text-color;
+  text-align: center;
+  padding: 1em 0;
+}
+.sec-carrusel{
+    background-color:#187fa8;
+    
+}
+nav {
+  background-color: @base-nav-bg-color;
+  padding: 0.5em;
+
+  a {
+    color: @base-nav-link-color;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+}
+
+section {
+  padding: @base-section-padding;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+h1, h2 {
+  color: #333;
+}
+
+.donation-options {
+  margin-bottom: 20px;
+}
+
+.donation-amount {
+  font-weight: bold;
+  color: rgb(7, 6, 6);
+  cursor: pointer;
+}
+
+.donation-message {
+  display: none;
+  margin-top: 10px;
+}
+
+#carouselExample {
+  max-width: @base-carousel-max-width;
+  margin: auto;
+
+ 
+}

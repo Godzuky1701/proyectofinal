@@ -1,0 +1,106 @@
+@size : {
+  phone: 380px;
+  tablet: 760px;
+  desktop: 1024px;
+  widescreen: 1200px;
+}
+
+@size-prf : {
+  phone: s;
+  tablet: m;
+  desktop: l;
+  widescreen: xl;
+}
+@import "eventos.less";
+@import "header.less";
+@import "contactenos.less";
+@import "nprogramas.less";
+@import "donaciones.less";
+@import "faq.less";
+@import "galeria.less";
+@import "index.less";
+@import "cayudar";
+@import "adn.less";
+@import "blog.less";
+
+body {
+  background-color: #187fa8;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: #87CEEB; 
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+#menu {
+  width: 250px;
+  background-color: #333;
+  position: fixed;
+  height: 100%;
+  left: -250px;
+  transition: left 0.3s ease;
+
+  #menu-header {
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+  }
+
+  a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+}
+
+#menu-btn {
+  font-size: 24px;
+  cursor: pointer;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  z-index: 2;
+  color: white;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.footer-container {
+  position: relative;  
+  bottom: 0;           
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+
+  p {
+    margin: 10px 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

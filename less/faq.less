@@ -1,0 +1,42 @@
+@color0: #333333; // Appears 4 times
+@color1: #f79c9c; // Appears 4 times
+@color2: #555555; // Appears 2 times
+
+
+
+.faq-bg{
+    background-color: #187fa8;
+}
+
+section {
+	padding: 20px;
+}
+
+h1 {
+	color: @color0;
+}
+h2 {
+	color: @color0;
+}
+.faq-item {
+	background-color: @color1;
+	border-radius: 5px;
+	border: 1px solid #dddddd;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	margin-bottom: 100px;
+	padding: 34px;
+}
+.question {
+	align-items: center;
+	color: #007bff;
+	cursor: pointer;
+	display: flex;
+	font-weight: bold;
+	i {
+		margin-right: 50px;
+	}
+}
+.answer {
+	display: none;
+	margin-top: 10px;
+}

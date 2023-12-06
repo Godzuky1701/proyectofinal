@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet/less" type="text/css" href="styles.less">
+  <link rel="stylesheet" href="less/less.less">
+
+  <title>{{title}}</title>
+</head>
+<body>
+    {{> header}}
+
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contáctanos</h2>
+            <p> Mateo 22:39-40
+
+                "Y el segundo se parece a este: 'Ama a tu prójimo como a ti mismo'. De estos dos mandamientos depende toda la ley y los profetas."</p>
+            <a href="#"><i class="fa fa-phone"></i> +504 00000000</a>
+            <a href="#"><i class="fa fa-envelope"></i> email@chuleta.hn</a>
+            <a href="#"><i class="fa fa-map-marked"></i> Choluteca,Honduras</a>
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+            <input type="emal" name="email" placeholder="Tu Email" class="campo">
+            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+
+  {{> footer}}
+
+</body>
+</html>
